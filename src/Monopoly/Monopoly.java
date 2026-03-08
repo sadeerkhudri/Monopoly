@@ -1,5 +1,5 @@
 //all imoports 
-package Monopoly.Monopoly;
+package Monopoly;
 import java.awt.event.*;
 import java.io.IOException;
 import java.net.URI;
