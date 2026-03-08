@@ -93,39 +93,6 @@ Resource paths used in code (examples):
 
 ---
 
-## Assets Setup (Read This)
-
-### If you keep the repo PRIVATE
-You can include your assets normally.
-
-### If you make the repo PUBLIC (recommended approach)
-Do NOT commit Monopoly-branded artwork/audio that you don’t have permission to redistribute.
-
-Instead:
-1) Keep the folder structure in the repo (empty folders are fine).
-2) Add your actual assets locally (not tracked by git).
-3) Use `.gitignore` to prevent committing copyrighted images/audio.
-
-Example `.gitignore` entries you can use:
-
-src/Monopoly/backgrounds/*.png
-src/Monopoly/cards/*.png
-src/Monopoly/dice/*.png
-src/Monopoly/tokens/*.png
-src/Monopoly/ui/*.png
-src/Monopoly/*.wav
-
-To keep empty folders in GitHub, add an empty file named `.gitkeep` inside each folder:
-- `src/Monopoly/backgrounds/.gitkeep`
-- `src/Monopoly/dice/.gitkeep`
-- etc.
-
-If you want the project to run for other people without Monopoly assets, you can:
-- replace assets with your own artwork, or
-- use open-license assets and keep the filenames/paths identical.
-
----
-
 ## Controls / How to Play
 - Start from the main menu: New Game → Player setup → Start Game
 - Roll dice to move
