@@ -25,7 +25,7 @@ From the repo root:
 - `javac -d out src/Monopoly/*.java`
 
 2) Copy assets into the runtime classpath (see “Assets Setup” below), then run:
-- `java -cp out Monopoly.Menu`
+- `java -cp "out:src" Monopoly.Menu`
 
 ---
 
