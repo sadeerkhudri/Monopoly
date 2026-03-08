@@ -68,7 +68,7 @@ From the repo root:
 Because this project loads resources via `getResource("...")`, all assets must live *inside the same package folder* as the Java classes:
 
 Recommended layout:
-
+```
 Monopoly/
 ├── README.md
 ├── LICENSE
@@ -82,7 +82,7 @@ Monopoly/
         ├── dice/
         ├── tokens/
         └── ui/
-
+```
 Resource paths used in code (examples):
 - backgrounds/menu.png
 - backgrounds/game.png
